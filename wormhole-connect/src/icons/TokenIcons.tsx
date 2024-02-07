@@ -33,6 +33,7 @@ import ATOM from './Tokens/ATOM';
 import KUJI from './Tokens/KUJI';
 import KLAY from './Tokens/KLAY';
 import PYTH from './Tokens/PYTH';
+import BSKT from './Tokens/BSKT';
 
 const useStyles = makeStyles<{ size: number }>()((theme, { size }) => ({
   container: {
@@ -131,6 +132,9 @@ export const getIcon = (icon: Icon) => {
     }
     case Icon.PYTH: {
       return PYTH;
+    }
+    case Icon.BSKT: {
+      return BSKT;
     }
     case Icon.KLAY: {
       return KLAY;
