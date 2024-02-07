@@ -38,6 +38,7 @@ export enum Icon {
   'KUJI',
   'PYTH',
   'BSKT',
+  'KLAY',
 }
 
 export enum Route {

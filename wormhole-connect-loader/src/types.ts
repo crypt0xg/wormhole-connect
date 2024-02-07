@@ -6,6 +6,7 @@ export const MAINNET_CHAINS = {
   polygon: 5,
   avalanche: 6,
   fantom: 10,
+  klaytn: 13,
   celo: 14,
   moonbeam: 16,
   osmosis: 20,
@@ -28,6 +29,7 @@ export const TESTNET_CHAINS = {
   mumbai: 5,
   fuji: 6,
   fantom: 10,
+  klaytn: 13,
   alfajores: 14,
   moonbasealpha: 16,
   osmosis: 20,
@@ -39,6 +41,10 @@ export const TESTNET_CHAINS = {
   wormchain: 3104,
   evmos: 4001,
   kujira: 4002,
+  sepolia: 10002,
+  arbitrum_sepolia: 10003,
+  base_sepolia: 10004,
+  optimism_sepolia: 10005,
 } as const;
 export type TestnetChainName = keyof typeof TESTNET_CHAINS;
 export type TestnetChainId = (typeof TESTNET_CHAINS)[TestnetChainName];

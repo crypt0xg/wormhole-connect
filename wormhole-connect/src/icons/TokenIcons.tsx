@@ -31,6 +31,7 @@ import WSTETH from './Tokens/WSTETH';
 import EVMOS from './Tokens/EVMOS';
 import ATOM from './Tokens/ATOM';
 import KUJI from './Tokens/KUJI';
+import KLAY from './Tokens/KLAY';
 import PYTH from './Tokens/PYTH';
 import BSKT from './Tokens/BSKT';
 
@@ -134,6 +135,9 @@ export const getIcon = (icon: Icon) => {
     }
     case Icon.BSKT: {
       return BSKT;
+    }
+    case Icon.KLAY: {
+      return KLAY;
     }
     default: {
       return noIcon;
